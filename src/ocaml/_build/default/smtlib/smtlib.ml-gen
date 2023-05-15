@@ -1,0 +1,14 @@
+(** @canonical Smtlib.Ast *)
+module Ast = Smtlib__Ast
+
+
+(** @canonical Smtlib.Parser *)
+module Parser = Smtlib__Parser
+
+
+(** @canonical Smtlib.SmtlibLexer *)
+module SmtlibLexer = Smtlib__SmtlibLexer
+
+
+(** @canonical Smtlib.SmtlibParser *)
+module SmtlibParser = Smtlib__SmtlibParser

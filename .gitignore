@@ -1,0 +1,11 @@
+Makefile.coq.conf
+.coqdeps.d
+*.glob
+*.vo
+*.vok
+*.vos
+*.aux
+*.cache
+src/extraction/*.ml
+src/extraction/*.mli
+**/.merlin

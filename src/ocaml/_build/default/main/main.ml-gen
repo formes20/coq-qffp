@@ -1,0 +1,2 @@
+(** @canonical Main.CoqQFFPMain *)
+module CoqQFFPMain = Main__CoqQFFPMain
