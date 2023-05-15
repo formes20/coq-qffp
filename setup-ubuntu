@@ -19,14 +19,14 @@ esac
 echo
 echo
 
-inside_coqqfbv=no
+inside_coqqffp=no
 read -n 1 -p "Are you running this script inside CoqQFFP source code directory (y/n)? " answer
 case ${answer} in
   y|Y )
-    inside_coqqfbv=yes
+    inside_coqqffp=yes
     ;;
   * )
-    inside_coqqfbv=no
+    inside_coqqffp=no
     ;;
 esac
 echo
@@ -207,8 +207,8 @@ fi
 
 if [[ "${inside_coqqffp}" == "no" ]]; then
   pushd ~/
-  git clone https://github.com/fmlab-iis/coq-qfbv.git
-  pushd ~/coq-qfbv
+  git clone https://github.com/formes20/coq-qffp
+  pushd ~/coq-qffp
 fi
 #git submodule init
 #git submodule update
