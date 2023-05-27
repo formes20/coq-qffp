@@ -1,6 +1,5 @@
-CoqQFFP
+CoqQFFP : Towards A Certified SMT QF_FP Solver
 =======
-
 CoqQFFP is an SMT QF_FP solver based on the certified SMT QF_BV solver [CoqQFBV](https://github.com/fmlab-iis/coq-qfbv). It accepts SMT QF_FP queries in the
 [SMTLIB2](http://smtlib.cs.uiowa.edu) format. CoqQFFP supports all operations specified in the [SMT Floating-point Theory](http://smtlib.cs.uiowa.edu/theories-FloatingPoint.shtml), except for conversions to other sorts.
 
@@ -10,7 +9,7 @@ A QF_BV expression in the formal syntax of CoqQFBV is then constructed from the 
 
 The source code of CoqQFFP has been derived and modified from CoqQFBV. This includes the addition of a word-blasting algorithm, formalization of the SMTLIB floating-point theory, and modifications to the OCaml front-end of CoqQFBV. The new Coq code about floating-point encoding is included in src/fq2bvq. With the code extraction mechanism of Coq, the certified OCaml code is extracted in src/ocaml/extraction and is used by the SMT QF_FP solver in src/ocaml.
 
-
+A video demonstration is available at https://youtu.be/BVpi3FyATCQ.
 Installation
 ============
 
